@@ -10,14 +10,21 @@
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14",
+    "nodemon": "^1.14.10",
     "prettier": "^3.9.9"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
-    "mongoose": "^9.10.3"
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.3",
+    "mongoose-aggregate-paginate-v2": "^1.1.5"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true,
+    "nodemon@1.14.10": true
   }
 }
